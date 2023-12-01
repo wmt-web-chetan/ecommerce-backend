@@ -11,6 +11,7 @@ const port=process.env.PORT || 8080;
 app.get('/',(req,res)=>{
     res.send({message:"Welcome to Node js"})
 })
-app.listen(port,()=>{
+app.listen(port,()=>{ 
+    
     console.log("App is running in 4000 port".bgGreen)
 })
